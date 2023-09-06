@@ -61,25 +61,24 @@ export default Carousel1;
 const cards = [
   {
     url: "/imgs/abstract/1.jpg",
-    title: "Let's get acquainted",
+    title: "Hello There!",
     id: 1,
   },
   {
     url: "/imgs/abstract/2.jpg",
     title:
-      "In 2017 I graduated from RMIT Design School, with an honours in Communication Design.",
+      "In 2017 I graduated from Food Science and Engenieering, in UCM, Madrid.",
     id: 2,
   },
   {
     url: "/imgs/abstract/3.jpg",
-    title:
-      "Since graduating I have been working in various design & communications roles based in Melbourne, Australia.",
+    title: "I worked as a CrossFit Coach and dietitian for a couple of years.",
     id: 3,
   },
   {
     url: "/imgs/abstract/4.jpg",
     title:
-      "In 2019 I began working freelance and have been working remotely ever since.",
+      "Last year started my new path towards web development and the wonders of the browser!",
     id: 4,
   },
 ];
