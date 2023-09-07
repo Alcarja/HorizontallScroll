@@ -11,7 +11,7 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-75%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-65%"]);
   //This controlls how much space there is left when you finish scrolling
 
   return (
@@ -79,7 +79,7 @@ const cards = [
       "Cool workspace to keep learning and growing as a web dev",
       "New Challenges",
       "A job as a front or back end web developer",
-      "A team to be a part of and help with my knowledge",
+      "A team to be a part of and help with coding conandrums",
       "Bringing my cool headed and chill demeanor to the team",
     ],
     id: 2,

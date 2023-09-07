@@ -61,7 +61,7 @@ export default Carousel1;
 const cards = [
   {
     url: "/imgs/abstract/1.jpg",
-    title: "Hello There!",
+    title: "Let's get started!",
     id: 1,
   },
   {
@@ -78,7 +78,7 @@ const cards = [
   {
     url: "/imgs/abstract/4.jpg",
     title:
-      "Last year started my new path towards web development and the wonders of the browser!",
+      "Last year I started my new path towards web development and the wonders of the browser!",
     id: 4,
   },
 ];
