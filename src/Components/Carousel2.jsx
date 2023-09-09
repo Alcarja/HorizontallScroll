@@ -11,7 +11,7 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-65%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-75%"]);
   //This controlls how much space there is left when you finish scrolling
 
   return (
@@ -39,6 +39,7 @@ const Card = ({ card }) => {
         className="individual-card-carousel-2"
       ></div>
       <div className="individual-card2-carousel-2">
+        <p className="about-me">{card.message}</p>
         <h2 className="card-h2-carousel-2">{card.title}</h2>
         {/* Check if card.businesses exists before rendering the list */}
         {card.businesses && (
@@ -56,6 +57,11 @@ const Card = ({ card }) => {
 export default Carousel2;
 
 const cards = [
+  {
+    url: "/imgs/abstract/1.jpg",
+    message: "About Me",
+    id: 4,
+  },
   {
     url: "/imgs/abstract/1.jpg",
     title: "IronHack web development Bootcamp",
